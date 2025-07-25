@@ -1,0 +1,12 @@
+.alert-box {
+  display: none;
+  background-color: #D1FAE5;
+  color: #065F46;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+#alert-toggle:checked + .alert-box {
+  display: block;
+}
