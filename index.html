@@ -3,11 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flower Shop</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif&display=swap"
+      rel="stylesheet" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/fav/flower.png" type="image/x-icon" />
+
+    <title>Flower Shop</title>
   </head>
-  <body class="bg-white text-gray-800">
-    <!-- Content will go here -->
+  <body class="px-5 lg:px-0 lg:mx-auto bg-[#F5F8FF] font-[Inter]">
+        <header class="max-w-6xl mx-auto">
+      <nav class="flex justify-between items-center font-[inter] mb-32">
+        <div><img src="./assets/logo.png" alt="Logo" /></div>
+        <div>
+          <ul class="lg:flex gap-12">
+            <li class="hidden lg:block font-bold"><a href="#">Home</a></li>
+            <li class="hidden lg:block text-[#8987A1]"><a href="#">Shop</a></li>
+            <li class="hidden lg:block text-[#8987A1]"><a href="#">About Us</a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
   </body>
 </html>
